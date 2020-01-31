@@ -1,0 +1,54 @@
+name: dragble
+description: A new Flutter project.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  http: ^0.11.3
+  flutter_bloc: ^3.1.0
+  equatable: ^1.0.2
+  flutter_screenutil: ^1.0.2
+  shared_preferences: ^0.5.3+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    # knight
+    - assets/green_knight.png
+    - assets/blue_knight.png
+    - assets/red_knight.png
+    - assets/yellow_knight.png
+    # bishop
+    - assets/green_bishop.png
+    - assets/blue_bishop.png
+    - assets/red_bishop.png
+    - assets/yellow_bishop.png
+    # king
+    - assets/green_king.png
+    - assets/blue_king.png
+    - assets/red_king.png
+    - assets/yellow_king.png
+    # pawn
+    - assets/green_pawn.png
+    - assets/blue_pawn.png
+    - assets/red_pawn.png
+    - assets/yellow_pawn.png
+    # queen
+    - assets/green_queen.png
+    - assets/blue_queen.png
+    - assets/red_queen.png
+    - assets/yellow_queen.png
+    # rook
+    - assets/green_rook.png
+    - assets/blue_rook.png
+    - assets/red_rook.png
+    - assets/yellow_rook.png

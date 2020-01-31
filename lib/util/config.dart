@@ -1,0 +1,36 @@
+const List<List<String>> board = [
+  [  '-',  '-',  '-','D14','E14','F14','G14','H14','I14','J14','K14',  '-',  '-',  '-'],
+  [  '-',  '-',  '-','D13','E13','F13','G13','H13','I13','J13','K13',  '-',  '-',  '-'],
+  [  '-',  '-',  '-','D12','E12','F12','G12','H12','I12','J12','K12',  '-',  '-',  '-'],
+  ['A11','B11','C11','D11','E11','F11','G11','H11','I11','J11','K11','L11','M11','N11'],
+  ['A10','B10','C10','D10','E10','F10','G10','H10','I10','J10','K10','L10','M10','N10'],
+  ['A09','B09','C09','D09','E09','F09','G09','H09','I09','J09','K09','L09','M09','N09'],
+  ['A08','B08','C08','D08','E08','F08','G08','H08','I08','J08','K08','L08','M08','N08'],
+  ['A07','B07','C07','D07','E07','F07','G07','H07','I07','J07','K07','L07','M07','N07'],
+  ['A06','B06','C06','D06','E06','F06','G06','H06','I06','J06','K06','L06','M06','N06'],
+  ['A05','B05','C05','D05','E05','F05','G05','H05','I05','J05','K05','L05','M05','N05'],
+  ['A04','B04','C04','D04','E04','F04','G04','H04','I04','J04','K04','L04','M04','N04'],
+  [  '-',  '-',  '-','D03','E03','F03','G03','H03','I03','J03','K03',  '-',  '-',  '-'],
+  [  '-',  '-',  '-','D02','E02','F02','G02','H02','I02','J02','K02',  '-',  '-',  '-'],
+  [  '-',  '-',  '-','D01','E01','F01','G01','H01','I01','J01','K01',  '-',  '-',  '-'],
+];
+
+Map positions = {
+  // blue                 // yellow                 // green                  // red
+  'A11': "blue_rook",     'D14': "yellow_rook",     'N11': "green_rook",      'D01': "red_rook",
+  'A10': 'blue_knight',   'E14': 'yellow_knight',   'N10': 'green_knight',    'E01': 'red_knight',
+  'A09': 'blue_bishop',   'F14': 'yellow_bishop',   'N09': 'green_bishop',    'F01': 'red_bishop',
+  'A08': 'blue_king',     'G14': 'yellow_king',     'N08': 'green_queen',     'G01': 'red_queen',
+  'A07': 'blue_queen',    'H14': 'yellow_queen',    'N07': 'green_king',      'H01': 'red_king',
+  'A06': 'blue_bishop',   'I14': 'yellow_bishop',   'N06': 'green_bishop',    'I01': 'red_bishop',
+  'A05': 'blue_knight',   'J14': 'yellow_knight',   'N05': 'green_knight',    'J01': 'red_knight',
+  'A04': 'blue_rook',     'K14': 'yellow_rook',     'N04': 'green_rook',      'K01': 'red_rook',
+  'B11': 'blue_pawn',     'D13': 'yellow_pawn',     'M11': 'green_pawn',      'D02': 'red_pawn',
+  'B10': 'blue_pawn',     'E13': 'yellow_pawn',     'M10': 'green_pawn',      'E02': 'red_pawn',
+  'B09': 'blue_pawn',     'F13': 'yellow_pawn',     'M09': 'green_pawn',      'F02': 'red_pawn',
+  'B08': 'blue_pawn',     'G13': 'yellow_pawn',     'M08': 'green_pawn',      'G02': 'red_pawn',
+  'B07': 'blue_pawn',     'H13': 'yellow_pawn',     'M07': 'green_pawn',      'H02': 'red_pawn',
+  'B06': 'blue_pawn',     'I13': 'yellow_pawn',     'M06': 'green_pawn',      'I02': 'red_pawn',
+  'B05': 'blue_pawn',     'J13': 'yellow_pawn',     'M05': 'green_pawn',      'J02': 'red_pawn',
+  'B04': 'blue_pawn',     'K13': 'yellow_pawn',     'M04': 'green_pawn',      'K02': 'red_pawn',  
+};
